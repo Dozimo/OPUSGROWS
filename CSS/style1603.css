@@ -1,0 +1,383 @@
+    @import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2:400,500,600,700,800&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+
+
+    *{
+        box-sizing: border-box;
+    }
+
+    body{
+    
+        font-family: 'Baloo Chettan 2', cursive;
+        
+    }
+
+    a{
+        text-decoration: none;
+        color: rgb(85, 85, 85);
+    }
+
+    .navbar{
+        height: 3cm;
+        background: white;
+        margin: 0px 0px 0px 0px;
+        position: sticky !important;
+        top: 0;
+        z-index: 1000;
+        color: rgb(85, 85, 85) !important;  
+    }
+
+    .nav-header{
+        font-size: 50px;
+        color: rgb(85, 85, 85);
+        font-weight: bolder;
+        padding: 0px 0px 0px 0px;
+    }
+
+
+    a:hover{
+        text-decoration: none;
+        font-weight: bold;
+        color: rgb(85, 85, 85);
+        }
+
+    .nav-buttons{
+        text-decoration: none !important;
+        color: rgb(85, 85, 85) !important;
+        
+    }
+
+
+    .nav-sign{    
+        background-color: rgb(85, 85, 85);
+        margin: -8px 0px 0px 0px;
+        padding: 50px 10px 40px 40px;
+        border-color: black;
+            
+        }
+ 
+
+    .sign-button{
+        color: whitesmoke;
+    }
+
+    .sign-button:hover{
+        color: whitesmoke;
+    }
+
+    #buttons:hover span{
+        text-decoration: underline;
+        color: rgb(85, 85, 85) !important;
+    }
+
+    #buttons{
+        padding: 0px 10px 0px 10px;
+        color: rgb(85, 85, 85) !important;
+        font-size: 20px;
+    }
+
+    .main-img{
+        max-height: 100%;
+        max-width: 100%;    
+    }
+
+    .main-img-float-text{
+        background: #555555;
+        padding: 20px 20px 20px 20px;
+        position: absolute;
+        top: 250px;
+        left: 250px;
+        color: whitesmoke !important;
+        font-size: 150%;
+    }
+
+    .main-img-float-text:hover{
+        background:teal;
+    }
+
+    .home-img-con{
+        position: relative;
+        background-image: url(../images1603/orchid-4920533_1920.jpg);
+        background-size: cover;
+        height: 700px;
+    }
+
+    .email-form{
+        height: 400px;
+        text-rendering: optimizeLegibility;
+        padding: 0px 0px 0px 0px;
+        background: white;
+   
+        display: flex;
+        flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    }
+
+    .email-form h1{
+        color: teal;
+        text-transform: uppercase;
+        text-shadow: rgb(85, 85, 85);
+        font-family: 'Righteous', cursive;
+    }
+
+    .why-opus{
+        background-image: url(../images1603/green-2551467_1920.jpg);
+        background-size: cover;
+        height: 800px;
+
+    }
+    .why-intro{
+        text-align: center;
+        color: white;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        background-color: limegreen;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .why-intro h1{
+        font-family: 'Righteous', cursive;
+        text-transform: uppercase;
+    }
+    .why-intro p{
+        font-size: x-large;
+    }
+
+    .signup{
+        background:rgb(85, 85, 85);
+        color: white;
+    }
+
+    .why-opus{
+        position: relative
+    }
+
+    .why-opus-float-text{
+        background: #555555;
+        padding: 0px 0px 0px 0px;
+        position: absolute;
+        top: 300px;
+        left: 610px;
+        color: whitesmoke !important;
+        font-size: normal !important;
+
+    }
+
+    .why-opus-float-text:hover{
+        color:teal !important;
+        font-weight: normal;
+        cursor: pointer;
+    }
+
+    .second-img{
+        max-height: 100%;
+        max-width: 100%; 
+    }
+
+    .for-home-float-text:hover{
+        color:teal !important;
+        font-weight: normal;
+        cursor: pointer;
+    }
+    .about-us-grid{
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        color: white;
+        max-width: 100%;
+    }
+
+    .for-home{
+        background: #985fa7;
+        position: relative;
+    }
+
+    .for-whole{
+        background: royalblue;
+        position: relative
+    }
+
+    .for-home-float-text{         background: #555555;
+        padding: 0px 0px 0px 0px;
+        position: absolute;
+        top: 280px;
+        left: 280px;
+        color: whitesmoke !important;
+        font-size: normal !important;
+    }
+
+    .about-us h3{
+        font-family: 'Righteous', cursive;
+    }
+
+    .about-us p{
+        font-size: 130%;
+    }
+
+
+
+    .ings-slide{
+        position: relative;
+        background-image: url(../images1603/plant-2004483_1920.jpg);
+        background-size: cover;
+        height: 400px;
+    }
+
+    .ings-title{
+        font-family: 'Righteous', cursive;
+        color: orangered;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 0px;
+    }
+
+    .ings-text p{
+        padding: 0px 0px 0px 0px;
+        
+    }
+
+    .ings-text{
+        position: absolute;
+        top: 80px;
+        left: 80px;
+    }
+
+    .ings-hd{
+        padding: 0px 0px 0px 0px;
+    }
+
+    .ings-logo{
+        position: absolute;
+        top: 70px;
+        left: 80px;
+        width: 90px;
+        height: 90px;
+    }
+
+    .footbar{
+        background: rgb(85, 85, 85);
+        color: white;
+        height: 10cm;
+        position: relative;
+    }
+
+    .footform{
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+        width: 805px;
+    }
+
+    .subscribe{
+        background: rgb(31, 31, 31);
+        color: white;
+    }
+
+    .footlogo{
+        width: 130px;
+        color: white;
+        position: absolute;
+        top: 92px;
+        left: 50px;
+        text-align: center;
+        letter-spacing: 5px;
+        font-size: 48px;
+    }
+    .footlogo2{
+        width: 100px;
+        color: white;
+        position: absolute;
+        top: 130px;
+        left: 50px;
+        text-align: center;
+    }
+
+    .row{
+        margin-right: 0px !important;
+    }
+
+    .footerlogo{
+        position: absolute;
+        top: -35px;
+        left: 50px;
+    }
+
+    .copyright{
+        color: white;
+        font-style: italic;
+        position: absolute;
+        top: 250px;
+        left: 100px;
+    }
+    .copyright a{
+        color: white;
+        font-style: italic;
+    }
+
+    .footnav a{
+        color: white !important;
+    
+    }
+
+    .footnav ul{
+        list-style: none !important;
+    }
+
+    .footnav{
+        position: absolute;
+        top: 65px;
+        right: 110px;
+        width: 25%;
+        
+        display: flex;
+        }
+
+        .socials li{
+            color: white;
+            list-style: none !important;
+            
+        }
+
+    .socials{
+        position: absolute;
+        right: 450px;
+        bottom: -100px;
+        height: 50%;
+        width: 0%;
+    }
+
+    .socials img{
+        width: 30px;
+        height: 30px;
+        
+    }
+
+    .socials ul{
+        display: flex;
+    }
+
+    @media screen and (max-width: 480px) { 
+    
+    .nav-signs {
+        background-color: rgb(85, 85, 85);
+            position: absolute;
+            top: 0;
+            right: 0;            
+    } 
+
+     .nav-header {
+        font-size: 50px;
+        color: rgb(85, 85, 85);
+        font-weight: bolder;
+        
+    }  
+
+    .nav-buttons {
+    color: rgb(85, 85, 85);
+    font-size: 10px;
+}
+
+
+}
